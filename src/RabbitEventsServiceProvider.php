@@ -21,7 +21,7 @@ class RabbitEventsServiceProvider extends ServiceProvider
 
         $this->app->singleton(
             Context::class,
-            static fn ($app) => new Context(new Connection($config))
+            static fn($app) => new Context(new Connection($config))
         );
     }
 
@@ -53,7 +53,7 @@ class RabbitEventsServiceProvider extends ServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/rabbitevents.php' => config_path('rabbitevents.php'),
+                __DIR__ . '/../config/rabbitevents.php' => config_path('rabbitevents.php'),
             ], 'rabbitevents-config');
         }
     }

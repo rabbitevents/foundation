@@ -24,8 +24,7 @@ class Message
         private JsonSerializable $payload,
         private Transport $transport,
         private array $properties = []
-    )
-    {
+    ) {
     }
 
     /**

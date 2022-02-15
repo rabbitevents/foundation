@@ -31,6 +31,6 @@ class Payload implements PayloadInterface
      */
     public function jsonSerialize(): false|string
     {
-        return json_encode($this->payload, JSON_UNESCAPED_UNICODE|JSON_THROW_ON_ERROR);
+        return json_encode($this->payload, JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
     }
 }
