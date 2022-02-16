@@ -9,6 +9,8 @@ use Interop\Amqp\AmqpContext;
 use Interop\Amqp\AmqpTopic;
 use RabbitEvents\Foundation\Amqp\BindFactory;
 use RabbitEvents\Foundation\Amqp\DestinationFactory;
+use RabbitEvents\Foundation\Amqp\QueueFactory;
+use RabbitEvents\Foundation\Contracts\QueueName;
 use RabbitEvents\Foundation\Contracts\Transport;
 use RabbitEvents\Foundation\Support\Sender;
 
@@ -59,8 +61,10 @@ class Context
         return $this->destination;
     }
 
-    public function createConsumer(AmqpQueue $queue, string $event): Consumer
+    public function createConsumer(QueueName $queueName, string $event): Consumer
     {
+        $queue = $this->createQueue($queueName);
+
         $this->bind($queue, $event);
 
         return new Consumer($this->getAmqpContext()->createConsumer($queue), $this);
@@ -85,6 +89,11 @@ class Context
     protected function getExchange(): string
     {
         return $this->connection->getConfig('exchange');
+    }
+
+    public function createQueue(QueueName $queueName): AmqpQueue
+    {
+        return (new QueueFactory($this))->make($queueName);
     }
 
     /**
