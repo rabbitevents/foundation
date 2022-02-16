@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644922738">
-  <project timestamp="1644922738">
+<coverage generated="1645018281">
+  <project timestamp="1645018281">
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Amqp/BindFactory.php">
       <class name="RabbitEvents\Foundation\Amqp\BindFactory" namespace="global">
-        <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
       </class>
-      <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="13" type="stmt" count="0"/>
-      <line num="20" type="method" name="make" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="22" type="stmt" count="0"/>
-      <metrics loc="24" ncloc="19" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+      <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="15" type="stmt" count="2"/>
+      <line num="22" type="method" name="make" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="24" type="stmt" count="2"/>
+      <metrics loc="26" ncloc="21" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Amqp/DestinationFactory.php">
       <class name="RabbitEvents\Foundation\Amqp\DestinationFactory" namespace="global">
-        <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="9" coveredelements="0"/>
+        <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
       </class>
-      <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="16" type="stmt" count="0"/>
-      <line num="18" type="method" name="make" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="20" type="stmt" count="0"/>
-      <line num="21" type="stmt" count="0"/>
-      <line num="22" type="stmt" count="0"/>
-      <line num="24" type="stmt" count="0"/>
-      <line num="26" type="stmt" count="0"/>
-      <metrics loc="28" ncloc="28" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="0" elements="9" coveredelements="0"/>
+      <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="17" type="stmt" count="2"/>
+      <line num="19" type="method" name="make" visibility="public" complexity="2" crap="2" count="2"/>
+      <line num="21" type="stmt" count="2"/>
+      <line num="22" type="stmt" count="2"/>
+      <line num="23" type="stmt" count="2"/>
+      <line num="25" type="stmt" count="2"/>
+      <line num="27" type="stmt" count="2"/>
+      <metrics loc="29" ncloc="29" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Amqp/MessageFactory.php">
       <class name="RabbitEvents\Foundation\Amqp\MessageFactory" namespace="global">
-        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
       </class>
-      <line num="9" type="method" name="make" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="11" type="stmt" count="0"/>
-      <line num="12" type="stmt" count="0"/>
-      <line num="15" type="stmt" count="0"/>
-      <line num="19" type="stmt" count="0"/>
-      <line num="21" type="stmt" count="0"/>
-      <metrics loc="23" ncloc="23" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="0" elements="6" coveredelements="0"/>
+      <line num="11" type="method" name="make" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="13" type="stmt" count="2"/>
+      <line num="14" type="stmt" count="2"/>
+      <line num="17" type="stmt" count="2"/>
+      <line num="21" type="stmt" count="2"/>
+      <line num="23" type="stmt" count="2"/>
+      <metrics loc="25" ncloc="25" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Amqp/QueueFactory.php">
       <class name="RabbitEvents\Foundation\Amqp\QueueFactory" namespace="global">
-        <metrics complexity="4" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="12" coveredelements="0"/>
+        <metrics complexity="4" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="12" coveredelements="12"/>
       </class>
-      <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="15" type="stmt" count="0"/>
-      <line num="21" type="method" name="make" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="23" type="stmt" count="0"/>
-      <line num="25" type="stmt" count="0"/>
-      <line num="27" type="stmt" count="0"/>
-      <line num="29" type="stmt" count="0"/>
-      <line num="32" type="method" name="resolveName" visibility="protected" complexity="2" crap="6" count="0"/>
-      <line num="34" type="stmt" count="0"/>
-      <line num="35" type="stmt" count="0"/>
-      <line num="38" type="stmt" count="0"/>
-      <metrics loc="40" ncloc="36" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="0" elements="12" coveredelements="0"/>
+      <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="17" type="stmt" count="2"/>
+      <line num="23" type="method" name="make" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="25" type="stmt" count="2"/>
+      <line num="27" type="stmt" count="2"/>
+      <line num="29" type="stmt" count="2"/>
+      <line num="31" type="stmt" count="2"/>
+      <line num="34" type="method" name="resolveName" visibility="protected" complexity="2" crap="2" count="2"/>
+      <line num="36" type="stmt" count="2"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="40" type="stmt" count="2"/>
+      <metrics loc="42" ncloc="38" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="12" coveredelements="12"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Commands/InstallCommand.php">
       <class name="RabbitEvents\Foundation\Commands\InstallCommand" namespace="global">
@@ -72,147 +72,152 @@
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Connection.php">
       <class name="RabbitEvents\Foundation\Connection" namespace="global">
-        <metrics complexity="10" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="0" elements="37" coveredelements="0"/>
+        <metrics complexity="10" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="28" elements="37" coveredelements="33"/>
       </class>
-      <line num="25" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="27" type="stmt" count="0"/>
-      <line num="28" type="stmt" count="0"/>
-      <line num="33" type="method" name="connect" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="35" type="stmt" count="0"/>
-      <line num="36" type="stmt" count="0"/>
-      <line num="39" type="stmt" count="0"/>
-      <line num="45" type="method" name="createContext" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="47" type="stmt" count="0"/>
-      <line num="54" type="method" name="setDelayStrategy" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="56" type="stmt" count="0"/>
-      <line num="58" type="stmt" count="0"/>
-      <line num="64" type="method" name="getDelayStrategy" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="66" type="stmt" count="0"/>
-      <line num="67" type="stmt" count="0"/>
-      <line num="69" type="stmt" count="0"/>
-      <line num="72" type="stmt" count="0"/>
-      <line num="75" type="method" name="getConfig" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="77" type="stmt" count="0"/>
-      <line num="78" type="stmt" count="0"/>
-      <line num="81" type="stmt" count="0"/>
-      <line num="87" type="method" name="factory" visibility="protected" complexity="1" crap="2" count="0"/>
-      <line num="89" type="stmt" count="0"/>
-      <line num="90" type="stmt" count="0"/>
-      <line num="91" type="stmt" count="0"/>
-      <line num="92" type="stmt" count="0"/>
-      <line num="93" type="stmt" count="0"/>
-      <line num="94" type="stmt" count="0"/>
-      <line num="95" type="stmt" count="0"/>
-      <line num="96" type="stmt" count="0"/>
-      <line num="97" type="stmt" count="0"/>
-      <line num="98" type="stmt" count="0"/>
-      <line num="99" type="stmt" count="0"/>
-      <line num="100" type="stmt" count="0"/>
-      <line num="101" type="stmt" count="0"/>
-      <line num="104" type="stmt" count="0"/>
-      <line num="106" type="stmt" count="0"/>
-      <metrics loc="108" ncloc="86" classes="1" methods="7" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="0" elements="37" coveredelements="0"/>
+      <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="29" type="stmt" count="3"/>
+      <line num="30" type="stmt" count="3"/>
+      <line num="35" type="method" name="connect" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="38" type="stmt" count="1"/>
+      <line num="41" type="stmt" count="1"/>
+      <line num="47" type="method" name="createContext" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="49" type="stmt" count="0"/>
+      <line num="56" type="method" name="setDelayStrategy" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="58" type="stmt" count="1"/>
+      <line num="60" type="stmt" count="1"/>
+      <line num="66" type="method" name="getDelayStrategy" visibility="public" complexity="2" crap="2" count="3"/>
+      <line num="68" type="stmt" count="3"/>
+      <line num="69" type="stmt" count="2"/>
+      <line num="71" type="stmt" count="2"/>
+      <line num="74" type="stmt" count="3"/>
+      <line num="77" type="method" name="getConfig" visibility="public" complexity="2" crap="2.15" count="2"/>
+      <line num="79" type="stmt" count="2"/>
+      <line num="80" type="stmt" count="2"/>
+      <line num="83" type="stmt" count="0"/>
+      <line num="89" type="method" name="factory" visibility="protected" complexity="1" crap="1" count="1"/>
+      <line num="91" type="stmt" count="1"/>
+      <line num="92" type="stmt" count="1"/>
+      <line num="93" type="stmt" count="1"/>
+      <line num="94" type="stmt" count="1"/>
+      <line num="95" type="stmt" count="1"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="97" type="stmt" count="1"/>
+      <line num="98" type="stmt" count="1"/>
+      <line num="99" type="stmt" count="1"/>
+      <line num="100" type="stmt" count="1"/>
+      <line num="101" type="stmt" count="1"/>
+      <line num="102" type="stmt" count="1"/>
+      <line num="103" type="stmt" count="1"/>
+      <line num="106" type="stmt" count="1"/>
+      <line num="108" type="stmt" count="1"/>
+      <metrics loc="110" ncloc="88" classes="1" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="30" coveredstatements="28" elements="37" coveredelements="33"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Consumer.php">
       <class name="RabbitEvents\Foundation\Consumer" namespace="global">
-        <metrics complexity="5" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="14" coveredelements="0"/>
+        <metrics complexity="5" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="14" coveredelements="12"/>
       </class>
-      <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="15" type="stmt" count="0"/>
-      <line num="17" type="method" name="__call" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="19" type="stmt" count="0"/>
-      <line num="28" type="method" name="nextMessage" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="30" type="stmt" count="0"/>
-      <line num="31" type="stmt" count="0"/>
-      <line num="34" type="stmt" count="0"/>
-      <line num="36" type="stmt" count="0"/>
-      <line num="37" type="stmt" count="0"/>
-      <line num="40" type="method" name="acknowledge" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="42" type="stmt" count="0"/>
-      <line num="43" type="stmt" count="0"/>
-      <metrics loc="44" ncloc="35" classes="1" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="0" elements="14" coveredelements="0"/>
+      <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="17" type="stmt" count="4"/>
+      <line num="19" type="method" name="__call" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="30" type="method" name="nextMessage" visibility="public" complexity="2" crap="2" count="2"/>
+      <line num="32" type="stmt" count="2"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="38" type="stmt" count="1"/>
+      <line num="39" type="stmt" count="1"/>
+      <line num="42" type="method" name="acknowledge" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="44" type="stmt" count="1"/>
+      <line num="45" type="stmt" count="1"/>
+      <metrics loc="46" ncloc="37" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="9" elements="14" coveredelements="12"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Context.php">
       <class name="RabbitEvents\Foundation\Context" namespace="global">
-        <metrics complexity="11" methods="8" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="0" elements="27" coveredelements="0"/>
+        <metrics complexity="13" methods="10" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="21" elements="32" coveredelements="30"/>
       </class>
-      <line num="34" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="36" type="stmt" count="0"/>
-      <line num="38" type="method" name="__call" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="40" type="stmt" count="0"/>
-      <line num="43" type="method" name="getAmqpContext" visibility="private" complexity="2" crap="6" count="0"/>
-      <line num="45" type="stmt" count="0"/>
-      <line num="46" type="stmt" count="0"/>
-      <line num="49" type="stmt" count="0"/>
-      <line num="52" type="method" name="destination" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="54" type="stmt" count="0"/>
-      <line num="55" type="stmt" count="0"/>
-      <line num="56" type="stmt" count="0"/>
-      <line num="59" type="stmt" count="0"/>
-      <line num="62" type="method" name="createConsumer" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="64" type="stmt" count="0"/>
-      <line num="65" type="stmt" count="0"/>
-      <line num="68" type="stmt" count="0"/>
-      <line num="71" type="method" name="getTransport" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="73" type="stmt" count="0"/>
-      <line num="74" type="stmt" count="0"/>
-      <line num="77" type="stmt" count="0"/>
-      <line num="80" type="method" name="setTransport" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="82" type="stmt" count="0"/>
-      <line num="84" type="stmt" count="0"/>
-      <line num="87" type="method" name="getExchange" visibility="protected" complexity="1" crap="2" count="0"/>
-      <line num="89" type="stmt" count="0"/>
-      <metrics loc="91" ncloc="79" classes="1" methods="8" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="0" elements="27" coveredelements="0"/>
+      <line num="37" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="39" type="stmt" count="3"/>
+      <line num="41" type="method" name="__call" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="43" type="stmt" count="2"/>
+      <line num="46" type="method" name="getAmqpContext" visibility="private" complexity="2" crap="2" count="2"/>
+      <line num="48" type="stmt" count="2"/>
+      <line num="49" type="stmt" count="2"/>
+      <line num="52" type="stmt" count="2"/>
+      <line num="55" type="method" name="destination" visibility="public" complexity="2" crap="2" count="1"/>
+      <line num="57" type="stmt" count="1"/>
+      <line num="58" type="stmt" count="1"/>
+      <line num="61" type="stmt" count="1"/>
+      <line num="64" type="method" name="createConsumer" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="66" type="stmt" count="1"/>
+      <line num="68" type="stmt" count="1"/>
+      <line num="70" type="stmt" count="1"/>
+      <line num="73" type="method" name="makeQueue" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="75" type="stmt" count="1"/>
+      <line num="83" type="method" name="bind" visibility="private" complexity="1" crap="1" count="1"/>
+      <line num="85" type="stmt" count="1"/>
+      <line num="86" type="stmt" count="1"/>
+      <line num="88" type="stmt" count="1"/>
+      <line num="90" type="method" name="getTransport" visibility="public" complexity="2" crap="2.15" count="1"/>
+      <line num="92" type="stmt" count="1"/>
+      <line num="93" type="stmt" count="0"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="99" type="method" name="setTransport" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="101" type="stmt" count="1"/>
+      <line num="103" type="stmt" count="1"/>
+      <line num="106" type="method" name="getExchange" visibility="protected" complexity="1" crap="1" count="1"/>
+      <line num="108" type="stmt" count="1"/>
+      <metrics loc="110" ncloc="93" classes="1" methods="10" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="21" elements="32" coveredelements="30"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Contracts/Payload.php">
-      <metrics loc="7" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      <metrics loc="13" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Contracts/QueueName.php">
-      <metrics loc="13" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      <metrics loc="15" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Contracts/Transport.php">
-      <metrics loc="14" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      <metrics loc="16" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Message.php">
       <class name="RabbitEvents\Foundation\Message" namespace="global">
-        <metrics complexity="13" methods="11" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="0" elements="36" coveredelements="0"/>
+        <metrics complexity="13" methods="11" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="24" elements="36" coveredelements="34"/>
       </class>
-      <line num="22" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="29" type="stmt" count="0"/>
-      <line num="38" type="method" name="createFromAmqpMessage" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="40" type="stmt" count="0"/>
-      <line num="41" type="stmt" count="0"/>
-      <line num="42" type="stmt" count="0"/>
-      <line num="43" type="stmt" count="0"/>
-      <line num="44" type="stmt" count="0"/>
-      <line num="46" type="stmt" count="0"/>
-      <line num="48" type="stmt" count="0"/>
-      <line num="54" type="method" name="send" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="56" type="stmt" count="0"/>
-      <line num="57" type="stmt" count="0"/>
-      <line num="62" type="method" name="amqpMessage" visibility="public" complexity="2" crap="6" count="0"/>
-      <line num="64" type="stmt" count="0"/>
-      <line num="65" type="stmt" count="0"/>
-      <line num="68" type="stmt" count="0"/>
-      <line num="71" type="method" name="__call" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="73" type="stmt" count="0"/>
-      <line num="76" type="method" name="payload" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="78" type="stmt" count="0"/>
-      <line num="81" type="method" name="event" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="83" type="stmt" count="0"/>
-      <line num="86" type="method" name="attempts" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="88" type="stmt" count="0"/>
-      <line num="91" type="method" name="increaseAttempts" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="93" type="stmt" count="0"/>
-      <line num="95" type="stmt" count="0"/>
-      <line num="101" type="method" name="release" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="103" type="stmt" count="0"/>
-      <line num="105" type="stmt" count="0"/>
-      <line num="106" type="stmt" count="0"/>
-      <line num="111" type="method" name="setAmqpMessage" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="113" type="stmt" count="0"/>
-      <line num="115" type="stmt" count="0"/>
-      <metrics loc="117" ncloc="92" classes="1" methods="11" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="0" elements="36" coveredelements="0"/>
+      <line num="24" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="30" type="stmt" count="6"/>
+      <line num="39" type="method" name="createFromAmqpMessage" visibility="public" complexity="2" crap="2" count="2"/>
+      <line num="41" type="stmt" count="2"/>
+      <line num="42" type="stmt" count="2"/>
+      <line num="43" type="stmt" count="2"/>
+      <line num="44" type="stmt" count="2"/>
+      <line num="45" type="stmt" count="2"/>
+      <line num="47" type="stmt" count="2"/>
+      <line num="49" type="stmt" count="2"/>
+      <line num="55" type="method" name="send" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="57" type="stmt" count="2"/>
+      <line num="58" type="stmt" count="2"/>
+      <line num="63" type="method" name="amqpMessage" visibility="public" complexity="2" crap="2" count="3"/>
+      <line num="65" type="stmt" count="3"/>
+      <line num="66" type="stmt" count="1"/>
+      <line num="69" type="stmt" count="3"/>
+      <line num="72" type="method" name="__call" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="74" type="stmt" count="0"/>
+      <line num="77" type="method" name="payload" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="79" type="stmt" count="2"/>
+      <line num="82" type="method" name="event" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="84" type="stmt" count="2"/>
+      <line num="87" type="method" name="attempts" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="89" type="stmt" count="1"/>
+      <line num="92" type="method" name="increaseAttempts" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="94" type="stmt" count="1"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="102" type="method" name="release" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="104" type="stmt" count="1"/>
+      <line num="106" type="stmt" count="1"/>
+      <line num="107" type="stmt" count="1"/>
+      <line num="112" type="method" name="setAmqpMessage" visibility="public" complexity="1" crap="1" count="5"/>
+      <line num="114" type="stmt" count="5"/>
+      <line num="116" type="stmt" count="5"/>
+      <metrics loc="118" ncloc="93" classes="1" methods="11" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="25" coveredstatements="24" elements="36" coveredelements="34"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/RabbitEventsServiceProvider.php">
       <class name="RabbitEvents\Foundation\RabbitEventsServiceProvider" namespace="global">
@@ -247,58 +252,48 @@
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Support/Payload.php">
       <class name="RabbitEvents\Foundation\Support\Payload" namespace="global">
-        <metrics complexity="8" methods="8" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="19" coveredelements="0"/>
+        <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="9" coveredelements="9"/>
       </class>
-      <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="13" type="stmt" count="0"/>
-      <line num="17" type="method" name="getPayload" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="19" type="stmt" count="0"/>
-      <line num="25" type="method" name="createFromJson" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="27" type="stmt" count="0"/>
-      <line num="34" type="method" name="jsonSerialize" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="36" type="stmt" count="0"/>
-      <line num="39" type="method" name="offsetExists" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="41" type="stmt" count="0"/>
-      <line num="44" type="method" name="offsetGet" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="46" type="stmt" count="0"/>
-      <line num="49" type="method" name="offsetSet" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="51" type="stmt" count="0"/>
-      <line num="52" type="stmt" count="0"/>
-      <line num="54" type="method" name="offsetUnset" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="56" type="stmt" count="0"/>
-      <line num="57" type="stmt" count="0"/>
-      <metrics loc="58" ncloc="48" classes="1" methods="8" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="0" elements="19" coveredelements="0"/>
+      <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="15" type="stmt" count="6"/>
+      <line num="17" type="method" name="getPayload" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="19" type="stmt" count="1"/>
+      <line num="25" type="method" name="createFromJson" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="27" type="stmt" count="2"/>
+      <line num="34" type="method" name="jsonSerialize" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="36" type="stmt" count="2"/>
+      <metrics loc="38" ncloc="31" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="9" coveredelements="9"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Support/QueueName.php">
       <class name="RabbitEvents\Foundation\Support\QueueName" namespace="global">
-        <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+        <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
       </class>
-      <line num="9" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="11" type="stmt" count="0"/>
-      <line num="13" type="method" name="resolve" visibility="public" complexity="1" crap="2" count="0"/>
-      <line num="15" type="stmt" count="0"/>
-      <metrics loc="17" ncloc="17" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="5" coveredelements="0"/>
+      <line num="11" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="13" type="stmt" count="3"/>
+      <line num="15" type="method" name="resolve" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="17" type="stmt" count="3"/>
+      <metrics loc="19" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
     </file>
     <file name="/Volumes/work/rabbitevents-dev/foundation/src/Support/Sender.php">
       <class name="RabbitEvents\Foundation\Support\Sender" namespace="global">
-        <metrics complexity="6" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="15" coveredelements="13"/>
+        <metrics complexity="6" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="15" coveredelements="15"/>
       </class>
-      <line num="21" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="23" type="stmt" count="1"/>
-      <line num="29" type="method" name="send" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="31" type="stmt" count="1"/>
-      <line num="33" type="stmt" count="1"/>
-      <line num="34" type="stmt" count="1"/>
-      <line num="36" type="method" name="setDelay" visibility="private" complexity="2" crap="2.15" count="1"/>
-      <line num="39" type="stmt" count="1"/>
-      <line num="40" type="stmt" count="0"/>
+      <line num="23" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="25" type="stmt" count="2"/>
+      <line num="31" type="method" name="send" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="33" type="stmt" count="2"/>
+      <line num="35" type="stmt" count="2"/>
+      <line num="36" type="stmt" count="2"/>
+      <line num="38" type="method" name="setDelay" visibility="private" complexity="2" crap="2" count="2"/>
+      <line num="41" type="stmt" count="2"/>
       <line num="42" type="stmt" count="1"/>
-      <line num="44" type="method" name="producer" visibility="private" complexity="2" crap="2" count="1"/>
-      <line num="46" type="stmt" count="1"/>
-      <line num="47" type="stmt" count="1"/>
-      <line num="50" type="stmt" count="1"/>
-      <metrics loc="52" ncloc="45" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="10" elements="15" coveredelements="13"/>
+      <line num="44" type="stmt" count="2"/>
+      <line num="46" type="method" name="producer" visibility="private" complexity="2" crap="2" count="2"/>
+      <line num="48" type="stmt" count="2"/>
+      <line num="49" type="stmt" count="2"/>
+      <line num="52" type="stmt" count="2"/>
+      <metrics loc="54" ncloc="47" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="15" coveredelements="15"/>
     </file>
-    <metrics files="16" loc="741" ncloc="614" classes="13" methods="58" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="162" coveredstatements="10" elements="220" coveredelements="13"/>
+    <metrics files="16" loc="766" ncloc="634" classes="13" methods="56" coveredmethods="45" conditionals="0" coveredconditionals="0" statements="159" coveredstatements="125" elements="215" coveredelements="170"/>
   </project>
 </coverage>

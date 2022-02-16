@@ -63,11 +63,28 @@ class Context
 
     public function createConsumer(QueueName $queueName, string $event): Consumer
     {
-        $queue = $this->createQueue($queueName);
+        $queue = $this->makeQueue($queueName);
 
         $this->bind($queue, $event);
 
         return new Consumer($this->getAmqpContext()->createConsumer($queue), $this);
+    }
+
+    public function makeQueue(QueueName $queueName): AmqpQueue
+    {
+        return (new QueueFactory($this))->make($queueName);
+    }
+
+    /**
+     * @param AmqpQueue $queue
+     * @param string $event
+     * @return void
+     */
+    private function bind(AmqpQueue $queue, string $event): void
+    {
+        $this->getAmqpContext()->bind(
+            (new BindFactory($this))->make($queue, $event)
+        );
     }
 
     public function getTransport(): Transport
@@ -89,22 +106,5 @@ class Context
     protected function getExchange(): string
     {
         return $this->connection->getConfig('exchange');
-    }
-
-    public function createQueue(QueueName $queueName): AmqpQueue
-    {
-        return (new QueueFactory($this))->make($queueName);
-    }
-
-    /**
-     * @param AmqpQueue $queue
-     * @param string $event
-     * @return void
-     */
-    private function bind(AmqpQueue $queue, string $event): void
-    {
-        $this->getAmqpContext()->bind(
-            (new BindFactory($this))->make($queue, $event)
-        );
     }
 }

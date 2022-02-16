@@ -18,7 +18,7 @@ class QueueFactoryTest extends TestCase
 
         $amqpQueue = new ImplAmqpQueue($queueName);
 
-        $context = \Mockery::mock(Context::class)->makePartial();
+        $context = \Mockery::mock(Context::class);
         $context->shouldReceive()
             ->createQueue($queueName)
             ->andReturn($amqpQueue);
