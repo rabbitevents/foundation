@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace RabbitEvents\Foundation;
 
@@ -80,7 +82,7 @@ class Connection
 
         return $this->config;
     }
-    
+
     /**
      * @return AmqpConnectionFactory
      */
@@ -92,7 +94,7 @@ class Connection
             'port' => $this->getConfig('port', 5672),
             'user' => $this->getConfig('user', 'guest'),
             'pass' => $this->getConfig('pass', 'guest'),
-            'vhost' =>$this->getConfig('vhost', '/'),
+            'vhost' => $this->getConfig('vhost', '/'),
             'ssl_on' => $this->getConfig('ssl.is_enabled', false),
             'ssl_verify' => $this->getConfig('ssl.verify_peer', true),
             'ssl_cacert' => $this->getConfig('ssl.cafile'),
