@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace RabbitEvents\Foundation\Contracts;
 
-interface DelaysDelivery
+interface ContentType extends \Stringable
 {
-    public function setDelay(int $delay = 0): void;
+    public function getValue(): string;
 }

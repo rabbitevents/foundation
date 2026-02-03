@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace RabbitEvents\Foundation;
+namespace RabbitEvents\Foundation\Amqp;
 
 use Enqueue\AmqpTools\DelayStrategy;
 use Enqueue\AmqpTools\RabbitMqDlxDelayStrategy;
@@ -10,8 +10,13 @@ use Illuminate\Support\Arr;
 use Interop\Amqp\AmqpConnectionFactory;
 use Interop\Amqp\AmqpContext;
 use Interop\Queue\Context;
+use Interop\Amqp\Impl\AmqpBind;
+use RabbitEvents\Foundation\Contracts\Connection as ConnectionContract;
+use RabbitEvents\Foundation\Contracts\Destination;
+use RabbitEvents\Foundation\Contracts\Producer;
+use RabbitEvents\Foundation\Contracts\QueueConsumer;
 
-class Connection
+class Connection implements ConnectionContract
 {
     private array $config;
 
@@ -24,6 +29,11 @@ class Connection
      * @var AmqpConnectionFactory
      */
     private $connection;
+
+    /** 
+     * @var Context
+     */
+    private $context;
 
     public function __construct(array $config)
     {
@@ -47,7 +57,40 @@ class Connection
      */
     public function createContext(): Context
     {
-        return $this->connect()->createContext();
+        if (!$this->context) {
+            $this->context = $this->connect()->createContext();
+        }
+        
+        return $this->context;
+    }
+
+    public function createProducer(): Producer
+    {
+        return new AmqpProducerAdapter($this->createContext()->createProducer());
+    }
+
+    public function makeConsumer(Destination $queue): QueueConsumer
+    {
+        return new AmqpConsumerAdapter($this->createContext()->createConsumer($queue->getOrigin()));
+    }
+
+    public function makeTopic(): Destination
+    {
+        $topic = (new DestinationTopicFactory($this->createContext(), $this))
+            ->makeAndDeclare($this->getConfig('exchange'));
+
+        return new AmqpDestinationAdapter($topic);
+    }
+
+    public function makeQueue(string $queueName, array $events, Destination $topic): Destination
+    {
+        $queue = (new QueueFactory($this->createContext(), $this))->makeAndDeclare($queueName);
+
+        foreach ($events as $event) {
+            $this->createContext()->bind(new AmqpBind($topic->getOrigin(), $queue, $event));
+        }
+
+        return new AmqpDestinationAdapter($queue);
     }
 
     /**
